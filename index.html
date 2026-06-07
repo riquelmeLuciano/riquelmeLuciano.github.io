@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Luciano Riquelme — desarrollador y creador digital. Portfolio personal.">
+  <meta name="author" content="Luciano Riquelme">
+  <title>Luciano Riquelme</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>LR</text></svg>">
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <header class="site-header">
+    <nav class="nav" aria-label="Principal">
+      <a class="nav__logo" href="#">LR</a>
+      <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menú">
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav__links" id="menu">
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="contenido">
+    <section class="hero">
+      <div class="hero__inner">
+        <p class="hero__eyebrow">Hola, soy</p>
+        <h1 class="hero__title">Luciano <em>Riquelme</em></h1>
+        <p class="hero__subtitle">
+          Desarrollador apasionado por construir experiencias digitales claras,
+          útiles y bien pensadas.
+        </p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#proyectos">Ver proyectos</a>
+          <a class="btn btn--ghost" href="#contacto">Contactar</a>
+        </div>
+      </div>
+      <div class="hero__visual" aria-hidden="true">
+        <div class="hero__orb hero__orb--1"></div>
+        <div class="hero__orb hero__orb--2"></div>
+        <div class="hero__grid"></div>
+      </div>
+    </section>
+
+    <section class="section" id="sobre-mi">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__label">01</span>
+          <h2>Sobre mí</h2>
+        </div>
+        <div class="about">
+          <p class="about__lead">
+            Me interesa el cruce entre diseño y código: resolver problemas reales
+            con soluciones simples, mantenibles y centradas en las personas.
+          </p>
+          <p>
+            Trabajo con tecnologías web modernas y disfruto aprender constantemente.
+            Cuando no estoy programando, suelo explorar nuevas herramientas,
+            documentar lo que aprendo y compartir ideas con otros desarrolladores.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="habilidades">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__label">02</span>
+          <h2>Habilidades</h2>
+        </div>
+        <ul class="skills">
+          <li class="skill-card">
+            <span class="skill-card__icon" aria-hidden="true">&lt;/&gt;</span>
+            <h3>Frontend</h3>
+            <p>HTML, CSS, JavaScript, interfaces responsivas y accesibles.</p>
+          </li>
+          <li class="skill-card">
+            <span class="skill-card__icon" aria-hidden="true">{ }</span>
+            <h3>Backend</h3>
+            <p>APIs REST, lógica de negocio y bases de datos relacionales.</p>
+          </li>
+          <li class="skill-card">
+            <span class="skill-card__icon" aria-hidden="true">⚙</span>
+            <h3>Herramientas</h3>
+            <p>Git, GitHub, control de versiones y flujos de despliegue.</p>
+          </li>
+          <li class="skill-card">
+            <span class="skill-card__icon" aria-hidden="true">✦</span>
+            <h3>Soft skills</h3>
+            <p>Comunicación, trabajo en equipo y aprendizaje continuo.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="proyectos">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__label">03</span>
+          <h2>Proyectos</h2>
+        </div>
+        <div class="projects">
+          <article class="project-card">
+            <div class="project-card__meta">
+              <span>Web</span>
+              <span>2025</span>
+            </div>
+            <h3>Página personal</h3>
+            <p>
+              Sitio estático minimalista desplegado en GitHub Pages.
+              Sin frameworks, rápido y fácil de mantener.
+            </p>
+            <a class="project-card__link" href="https://github.com/LucianoRiquelme/LucianoRiquelme" target="_blank" rel="noopener noreferrer">
+              Ver en GitHub →
+            </a>
+          </article>
+          <article class="project-card">
+            <div class="project-card__meta">
+              <span>Próximo</span>
+              <span>—</span>
+            </div>
+            <h3>Tu próximo proyecto</h3>
+            <p>
+              Este espacio está listo para mostrar tu siguiente idea.
+              Edita <code>index.html</code> y añade tus propios trabajos.
+            </p>
+            <span class="project-card__link project-card__link--muted">Próximamente</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="contacto">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__label">04</span>
+          <h2>Contacto</h2>
+        </div>
+        <div class="contact">
+          <p class="contact__text">
+            ¿Tienes una idea, un proyecto o simplemente quieres saludar?
+            Escríbeme por cualquiera de estos canales.
+          </p>
+          <ul class="contact__links">
+            <li>
+              <a href="mailto:luciano.riquelme@example.com">
+                <span>Email</span>
+                luciano.riquelme@example.com
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/LucianoRiquelme" target="_blank" rel="noopener noreferrer">
+                <span>GitHub</span>
+                github.com/LucianoRiquelme
+              </a>
+            </li>
+            <li>
+              <a href="https://linkedin.com/in/lucianoriquelme" target="_blank" rel="noopener noreferrer">
+                <span>LinkedIn</span>
+                linkedin.com/in/lucianoriquelme
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <p>© <span id="year"></span> Luciano Riquelme</p>
+      <p>Hecho con HTML, CSS y JavaScript · Alojado en GitHub Pages</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
